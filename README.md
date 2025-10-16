@@ -1,221 +1,231 @@
-## airbnb-clone-project
+🏡 Airbnb Clone Project
 
-The goal of this project is to build a functional web application that allows users to browse property listings, view detailed property information, and complete bookings. The project is build using the following tech stacks:
+A functional web application designed to let users browse property listings, view detailed property information, and complete bookings — inspired by Airbnb’s design and user experience principles.
 
-Frontend: HTML, CSS, JavaScript (React or similar framework)
-Version Control: Git and GitHub
-Design Tools: Figma for UI/UX design
+🚀 Tech Stack
+Layer Technologies
+Frontend HTML, CSS, JavaScript (React or similar framework)
+Version Control Git & GitHub
+Design Tools Figma for UI/UX design
+🎨 UI/UX Design Planning
+🎯 Design Goals
 
-# UI/UX Design Planning
+Create an intuitive booking flow
 
--Design Goals
-•Create intuitive booking flow
-•Maintain visual consistency
-•Ensure fast loading times
-•Prioritize mobile responsiveness
+Maintain visual consistency
 
--Key Features
-•Property search and filtering
-•Detailed property viewing
-•Secure checkout process
-•User authentication
+Ensure fast loading times
 
--Primary Pages
-•Page Description
-•Property Listing View Grid display of available properties with filters
-•Listing Detailed View Complete property details with images and booking form
-•Simple Checkout View Streamlined payment and booking confirmation
+Prioritize mobile responsiveness
 
--Importance of User-Friendly Design
-A well-designed booking system reduces friction in the user journey, increases conversion rates, and improves customer satisfaction. Clear navigation, intuitive interfaces, and responsive design are critical for success.
+⭐ Key Features
 
-# Figma Design Specifications
+Property search and filtering
 
-- Color Styles:
-  Primary: #34967C
-  Secondary: #FFA800
-  Shimmer: #EDEDED
-  Button Borders: #F6F6F6
-  Background: #FFFFFF
-  Text: #222222
-  Secondary Text: #717171
+Detailed property viewing
 
--Typography:
-Primary Font: Circular, Medium (500), 16px
-Headings: Circular, Bold (700), 24px-32px
-Secondary Text: Circular, Book (400), 14px
+Secure checkout process
 
-Font Family: Quicksand
-Font Weight: 700
-Font Style: 22px
-Line height: 35% 100%
-Letter spacing: 0%
+User authentication
 
-# Importance of identifying design properties of a mock up design.
+📄 Primary Pages
+Page Description
+Property Listing View Grid display of available properties with filters
+Listing Detailed View Complete property details with images and booking form
+Simple Checkout View Streamlined payment and booking confirmation
+💡 Importance of User-Friendly Design
 
-1. Clarifies Visual and Functional Intent
+A well-designed booking system reduces friction, increases conversions, and improves customer satisfaction.
+Clear navigation, intuitive interfaces, and responsive layouts are critical to success.
 
-Identifying design properties (such as layout, color scheme, typography, spacing, and alignment) helps communicate how the final product should look and behave.
+🎨 Figma Design Specifications
+🎨 Color Palette
+Name Hex Code Usage
+Primary #34967C Buttons, highlights
+Secondary #FFA800 Accents, CTAs
+Shimmer #EDEDED Loading states
+Button Borders #F6F6F6 Button outlines
+Background #FFFFFF Page background
+Text #222222 Primary text
+Secondary Text #717171 Subheadings, hints
+🖋️ Typography
+Type Font Weight Size Usage
+Primary Font Circular 500 (Medium) 16px Body text
+Headings Circular 700 (Bold) 24px–32px Titles
+Secondary Text Circular 400 (Book) 14px Descriptions
+Additional Font Quicksand 700 22px Emphasis headings
 
-It ensures everyone — designers, developers, and clients — understands the visual direction and interactive features.
+Line Height: 100%
+Letter Spacing: 0%
 
-Prevents confusion or misinterpretation during development.
+🧭 Importance of Identifying Design Properties
+1️⃣ Clarifies Visual and Functional Intent
 
-2. Ensures Design Consistency
+Defines layout, color scheme, typography, and alignment — ensuring shared understanding between designers, developers, and stakeholders.
 
-By outlining design properties, you maintain a consistent look and feel across all screens or pages.
+2️⃣ Ensures Design Consistency
 
-Elements such as buttons, icons, fonts, and colors follow the same rules.
+Maintains a unified look and feel across pages — reinforcing brand identity and enhancing UX.
 
-This consistency builds brand identity and enhances user experience.
+3️⃣ Improves Usability and UX
 
-3. Aids in Usability and User Experience (UX)
+Identifying properties like spacing, contrast, and hierarchy ensures readability, accessibility, and smooth navigation.
 
-When properties like spacing, contrast, and hierarchy are clearly identified, designers can check whether the mock-up supports good usability practices.
+4️⃣ Facilitates Collaboration and Feedback
 
-Helps in ensuring readability, accessibility, and ease of navigation.
+Makes team communication clear, enabling faster and more accurate implementation.
 
-Encourages the design of intuitive interfaces that guide users naturally.
+5️⃣ Supports Responsive and Scalable Design
 
-4. Facilitates Collaboration and Feedback
+Allows effective adaptation for mobile, tablet, and desktop views.
 
-Clearly defined design properties make it easier for teams and stakeholders to review and provide feedback.
+6️⃣ Assists in Prototyping and Testing
 
-Developers can implement the design more accurately.
+Encourages early detection of usability and accessibility issues before full development.
 
-Clients can visualize the final outcome before production begins.
+7️⃣ Saves Time and Cost
 
-Saves time by reducing revisions and misunderstandings.
+Reduces rework, improves efficiency, and speeds up the development cycle.
 
-5. Supports Responsive and Scalable Design
+👥 Project Roles and Responsibilities
+🧩 Project Manager
 
-Knowing the key design properties allows designers to plan how layouts will adapt across different devices and screen sizes.
+Responsibilities:
 
-Helps in maintaining quality and usability on mobile, tablet, and desktop.
+Oversees timeline, team coordination, and deliverables
 
-6. Assists in Prototyping and Testing
+Contribution to Airbnb’s Success:
 
-When design properties are identified early, prototypes can be tested with users before development.
+Aligns the team toward a seamless booking experience
 
-Helps detect usability issues, color contrast problems, or readability concerns early.
+Ensures timely rollouts
 
-Leads to an improved final product through iterative testing.
+Balances user needs with business goals
 
-7. Saves Time and Cost
+💻 Frontend Developers
 
-A well-defined mock-up with identified design properties reduces guesswork during coding and redesigning stages.
+Responsibilities:
 
-Prevents expensive design changes later.
+Implement UI components and ensure responsiveness
 
-Speeds up the development cycle.
+Contribution:
 
-# Project Roles and Responsibilities
+Create a visually appealing and accessible interface
 
--Project Manager
-Oversees timeline, coordinates team, manages deliverables
+Enhance user engagement through polished visuals
 
-# Contribution to Airbnb’s Success:
+⚙️ Backend Developers
 
-•Keeps the team aligned toward a shared goal — delivering a seamless booking experience
+Responsibilities:
 
-•Ensures deadlines are met for new feature rollouts and platform updates
+Build APIs, manage databases, and handle business logic
 
-•Balances user needs with business priorities to maintain Airbnb’s competitive edge
+Contribution:
 
--Frontend Developers
-Implements UI components, ensures responsive design
+Enable secure transactions and scalable operations
 
-# Contribution to Airbnb’s Success:
+Power core features: search, booking, payments, and reviews
 
-•Create a visually appealing and intuitive platform where users can easily search, view, and book listings
+🎨 Designers
 
-•Ensure accessibility and responsiveness that build trust and satisfaction among global users
+Responsibilities:
 
-•Enhance user engagement through polished visuals and seamless navigation
+Create mockups, maintain design systems, and ensure UX quality
 
--Backend Developers
-Builds APIs, manages database, implements business logic
+Contribution:
 
-# Contribution to Airbnb’s Success:
+Define Airbnb’s visual identity
 
-•Ensure reliable and secure transactions between hosts and guests
+Design intuitive layouts for hosts and guests
 
-•Maintain platform scalability as millions of users access the system daily
+🧪 QA/Testers
 
-•Power Airbnb’s core features — search, booking, payments, and reviews — efficiently
+Responsibilities:
 
--Designers
-Creates mockups, maintains design system, ensures UX quality
+Write test cases, perform testing, and report bugs
 
-# Contribution to Airbnb’s Success:
+Contribution:
 
-•Shape the visual identity that makes Airbnb recognizable and trustworthy
+Guarantee bug-free and reliable user experiences
 
-•Enhance user experience by designing clean, intuitive layouts
+Protect Airbnb’s reputation for quality
 
-•Ensure hosts and guests have simple, enjoyable interactions throughout the booking journey
+🧰 DevOps Engineers
 
--QA/Testers
-Writes test cases, performs testing, reports bugs
+Responsibilities:
 
-# Contribution to Airbnb’s Success:
+Manage deployment, CI/CD pipelines, and infrastructure
 
-•Guarantee a bug-free and reliable user experience
+Contribution:
 
-•Prevent issues that could affect bookings or payments
+Maintain 24/7 uptime
 
-•Uphold Airbnb’s reputation for quality and dependability
+Enable smooth updates with zero downtime
 
--DevOps Engineers
-Manages deployment, CI/CD pipeline, server infrastructure
+🎯 Product Owner
 
-# Contribution to Airbnb’s Success:
+Responsibilities:
 
-•Keep Airbnb’s platform online 24/7 with minimal downtime
+Define requirements, prioritize features, and represent stakeholders
 
-•Enable smooth updates and new feature rollouts without disrupting users
+Contribution:
 
-•Support scalability to handle millions of concurrent users during peak times
+Keep the platform aligned with customer feedback and market trends
 
--Product Owner
-Defines requirements, prioritizes features, represents stakeholders
+Drive innovation and mission alignment
 
-# Contribution to Airbnb’s Success:
+🔄 Scrum Master
 
-•Ensures the platform evolves based on real customer feedback and market trends
+Responsibilities:
 
-•Aligns every release with Airbnb’s mission — to create a world where anyone can belong anywhere
+Facilitate agile processes, remove blockers, organize sprints
 
-•Drives innovation by focusing on impactful features (e.g., flexible dates, host safety tools)
+Contribution:
 
--Scrum Master
-Facilitates agile processes, removes blockers, organizes meetings
+Maintain collaboration and communication
 
-# Contribution to Airbnb’s Success:
+Ensure efficient and timely feature delivery
 
-•Keeps development cycles fast, focused, and adaptable to change
+🧩 UI Components (Planned)
+🧭 Navbar
 
-•Encourages a productive, collaborative team culture
-
-•Ensures smooth communication, reducing delays in feature delivery
-
-# UI components for the AirBnB Clone project.
-
-Planned Components
--Navbar
 Logo
+
 Search bar
+
 User navigation
+
 Responsive menu
 
--Property Card
+🏠 Property Card
+
 Property image
-Basic details (price, location, rating)
+
+Price, location, rating
+
 Favorite button
+
 Responsive layout
 
--Footer
+📜 Footer
+
 Site links
+
 Company information
+
 Social media links
-Copyright information
+
+Copyright
+
+♿ Accessibility Commitment
+
+This project follows WCAG 2.1 AA
+guidelines:
+
+Semantic HTML structure
+
+High color contrast and scalable text
+
+Keyboard and screen reader navigation
+
+Accessible form inputs and labels
