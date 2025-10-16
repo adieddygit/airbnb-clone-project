@@ -1,231 +1,255 @@
-🏡 Airbnb Clone Project
+# 🏡 Airbnb Clone Project
 
-A functional web application designed to let users browse property listings, view detailed property information, and complete bookings — inspired by Airbnb’s design and user experience principles.
+The goal of this project is to build a **functional web application** that allows users to:
 
-🚀 Tech Stack
-Layer Technologies
-Frontend HTML, CSS, JavaScript (React or similar framework)
-Version Control Git & GitHub
-Design Tools Figma for UI/UX design
-🎨 UI/UX Design Planning
-🎯 Design Goals
+- Browse property listings
+- View detailed property information
+- Complete bookings
 
-Create an intuitive booking flow
+---
 
-Maintain visual consistency
+## 🧰 Tech Stack
 
-Ensure fast loading times
+| Category            | Tools / Technologies                               |
+| ------------------- | -------------------------------------------------- |
+| **Frontend**        | HTML, CSS, JavaScript (React or similar framework) |
+| **Version Control** | Git & GitHub                                       |
+| **Design Tools**    | Figma for UI/UX design                             |
 
-Prioritize mobile responsiveness
+---
 
-⭐ Key Features
+## 🎨 UI/UX Design Planning
 
-Property search and filtering
+### 🎯 Design Goals
 
-Detailed property viewing
+- Create an **intuitive booking flow**
+- Maintain **visual consistency**
+- Ensure **fast loading times**
+- Prioritize **mobile responsiveness**
 
-Secure checkout process
+### 🧩 Key Features
 
-User authentication
+- Property search and filtering
+- Detailed property viewing
+- Secure checkout process
+- User authentication
 
-📄 Primary Pages
-Page Description
-Property Listing View Grid display of available properties with filters
-Listing Detailed View Complete property details with images and booking form
-Simple Checkout View Streamlined payment and booking confirmation
-💡 Importance of User-Friendly Design
+### 📄 Primary Pages
 
-A well-designed booking system reduces friction, increases conversions, and improves customer satisfaction.
-Clear navigation, intuitive interfaces, and responsive layouts are critical to success.
+| Page                      | Description                                            |
+| ------------------------- | ------------------------------------------------------ |
+| **Property Listing View** | Grid display of available properties with filters      |
+| **Listing Detailed View** | Complete property details with images and booking form |
+| **Simple Checkout View**  | Streamlined payment and booking confirmation           |
 
-🎨 Figma Design Specifications
-🎨 Color Palette
-Name Hex Code Usage
-Primary #34967C Buttons, highlights
-Secondary #FFA800 Accents, CTAs
-Shimmer #EDEDED Loading states
-Button Borders #F6F6F6 Button outlines
-Background #FFFFFF Page background
-Text #222222 Primary text
-Secondary Text #717171 Subheadings, hints
-🖋️ Typography
-Type Font Weight Size Usage
-Primary Font Circular 500 (Medium) 16px Body text
-Headings Circular 700 (Bold) 24px–32px Titles
-Secondary Text Circular 400 (Book) 14px Descriptions
-Additional Font Quicksand 700 22px Emphasis headings
+### 💡 Importance of User-Friendly Design
 
-Line Height: 100%
-Letter Spacing: 0%
+A well-designed booking system reduces friction, increases conversion rates, and improves customer satisfaction.  
+**Clear navigation**, **intuitive interfaces**, and **responsive design** are critical for success.
 
-🧭 Importance of Identifying Design Properties
-1️⃣ Clarifies Visual and Functional Intent
+---
 
-Defines layout, color scheme, typography, and alignment — ensuring shared understanding between designers, developers, and stakeholders.
+## 🎨 Figma Design Specifications
 
-2️⃣ Ensures Design Consistency
+### 🎨 Color Styles
 
-Maintains a unified look and feel across pages — reinforcing brand identity and enhancing UX.
+| Name               | Hex Code  | Description              |
+| ------------------ | --------- | ------------------------ |
+| **Primary**        | `#34967C` | Main brand color         |
+| **Secondary**      | `#FFA800` | Accent elements          |
+| **Shimmer**        | `#EDEDED` | Loading states           |
+| **Button Borders** | `#F6F6F6` | Button outlines          |
+| **Background**     | `#FFFFFF` | Page background          |
+| **Text**           | `#222222` | Primary text color       |
+| **Secondary Text** | `#717171` | Subheadings and captions |
 
-3️⃣ Improves Usability and UX
+### 🖋️ Typography
 
-Identifying properties like spacing, contrast, and hierarchy ensures readability, accessibility, and smooth navigation.
+| Type                | Font      | Weight       | Size      | Usage         |
+| ------------------- | --------- | ------------ | --------- | ------------- |
+| **Primary Font**    | Circular  | Medium (500) | 16px      | Body text     |
+| **Headings**        | Circular  | Bold (700)   | 24px–32px | Page titles   |
+| **Secondary Text**  | Circular  | Book (400)   | 14px      | Subtext       |
+| **Additional Font** | Quicksand | 700          | 22px      | Emphasis text |
 
-4️⃣ Facilitates Collaboration and Feedback
+**Line Height:** 100%  
+**Letter Spacing:** 0%
 
-Makes team communication clear, enabling faster and more accurate implementation.
+---
 
-5️⃣ Supports Responsive and Scalable Design
+## 🧭 Importance of Identifying Design Properties in a Mock-Up
 
-Allows effective adaptation for mobile, tablet, and desktop views.
+### 1️⃣ Clarifies Visual and Functional Intent
 
-6️⃣ Assists in Prototyping and Testing
+- Defines layout, color scheme, typography, spacing, and alignment.
+- Ensures designers, developers, and clients share the same understanding.
+- Prevents confusion during development.
 
-Encourages early detection of usability and accessibility issues before full development.
+### 2️⃣ Ensures Design Consistency
 
-7️⃣ Saves Time and Cost
+- Maintains a unified look and feel across pages.
+- Reinforces brand identity and enhances user experience.
 
-Reduces rework, improves efficiency, and speeds up the development cycle.
+### 3️⃣ Aids in Usability and UX
 
-👥 Project Roles and Responsibilities
-🧩 Project Manager
+- Promotes readability, accessibility, and intuitive navigation.
+- Helps verify usability through hierarchy and contrast.
 
-Responsibilities:
+### 4️⃣ Facilitates Collaboration and Feedback
 
-Oversees timeline, team coordination, and deliverables
+- Enables clearer communication among team members.
+- Reduces misunderstandings and revisions.
 
-Contribution to Airbnb’s Success:
+### 5️⃣ Supports Responsive and Scalable Design
 
-Aligns the team toward a seamless booking experience
+- Helps plan adaptable layouts for mobile, tablet, and desktop.
+- Preserves usability across devices.
 
-Ensures timely rollouts
+### 6️⃣ Assists in Prototyping and Testing
 
-Balances user needs with business goals
+- Enables early testing for usability and accessibility issues.
+- Leads to better final products through iteration.
 
-💻 Frontend Developers
+### 7️⃣ Saves Time and Cost
 
-Responsibilities:
+- Reduces guesswork during coding.
+- Minimizes redesign efforts and speeds up development.
 
-Implement UI components and ensure responsiveness
+---
 
-Contribution:
+## 👥 Project Roles and Responsibilities
 
-Create a visually appealing and accessible interface
+### 👨‍💼 Project Manager
 
-Enhance user engagement through polished visuals
+**Responsibilities:**
 
-⚙️ Backend Developers
+- Oversees timeline, coordinates team, manages deliverables
 
-Responsibilities:
+**Contribution to Airbnb’s Success:**
 
-Build APIs, manage databases, and handle business logic
+- Aligns the team toward seamless booking experiences
+- Ensures on-time feature rollouts
+- Balances user needs with business priorities
 
-Contribution:
+---
 
-Enable secure transactions and scalable operations
+### 💻 Frontend Developers
 
-Power core features: search, booking, payments, and reviews
+**Responsibilities:**
 
-🎨 Designers
+- Implement UI components and ensure responsive design
 
-Responsibilities:
+**Contribution:**
 
-Create mockups, maintain design systems, and ensure UX quality
+- Build intuitive and visually appealing interfaces
+- Maintain accessibility and responsiveness across devices
+- Improve engagement through polished visuals
 
-Contribution:
+---
 
-Define Airbnb’s visual identity
+### ⚙️ Backend Developers
 
-Design intuitive layouts for hosts and guests
+**Responsibilities:**
 
-🧪 QA/Testers
+- Build APIs, manage databases, and implement business logic
 
-Responsibilities:
+**Contribution:**
 
-Write test cases, perform testing, and report bugs
+- Power Airbnb’s core features — search, booking, payments, and reviews
+- Ensure secure and reliable transactions
+- Support large-scale system performance
 
-Contribution:
+---
 
-Guarantee bug-free and reliable user experiences
+### 🎨 Designers
 
-Protect Airbnb’s reputation for quality
+**Responsibilities:**
 
-🧰 DevOps Engineers
+- Create mockups, maintain design systems, ensure UX quality
 
-Responsibilities:
+**Contribution:**
 
-Manage deployment, CI/CD pipelines, and infrastructure
+- Shape Airbnb’s recognizable visual identity
+- Deliver clean, intuitive layouts
+- Enhance both host and guest experiences
 
-Contribution:
+---
 
-Maintain 24/7 uptime
+### 🧪 QA/Testers
 
-Enable smooth updates with zero downtime
+**Responsibilities:**
 
-🎯 Product Owner
+- Write test cases, perform testing, report bugs
 
-Responsibilities:
+**Contribution:**
 
-Define requirements, prioritize features, and represent stakeholders
+- Ensure a **bug-free and reliable** platform
+- Prevent booking or payment issues
+- Maintain Airbnb’s quality reputation
 
-Contribution:
+---
 
-Keep the platform aligned with customer feedback and market trends
+### 🧰 DevOps Engineers
 
-Drive innovation and mission alignment
+**Responsibilities:**
 
-🔄 Scrum Master
+- Manage deployment, CI/CD pipelines, and infrastructure
 
-Responsibilities:
+**Contribution:**
 
-Facilitate agile processes, remove blockers, organize sprints
+- Keep Airbnb’s platform online 24/7
+- Support seamless updates and scalability
 
-Contribution:
+---
 
-Maintain collaboration and communication
+### 🎯 Product Owner
 
-Ensure efficient and timely feature delivery
+**Responsibilities:**
 
-🧩 UI Components (Planned)
-🧭 Navbar
+- Define requirements, prioritize features, represent stakeholders
 
-Logo
+**Contribution:**
 
-Search bar
+- Guide platform evolution through user feedback
+- Align releases with Airbnb’s mission
+- Drive innovation with impactful features
 
-User navigation
+---
 
-Responsive menu
+### 🔄 Scrum Master
 
-🏠 Property Card
+**Responsibilities:**
 
-Property image
+- Facilitate agile processes, remove blockers, organize meetings
 
-Price, location, rating
+**Contribution:**
 
-Favorite button
+- Keep development efficient, adaptive, and collaborative
+- Ensure effective communication and delivery
 
-Responsive layout
+---
 
-📜 Footer
+## 🧱 UI Components for the Airbnb Clone Project
 
-Site links
+### 🧭 Navbar
 
-Company information
+- Logo
+- Search bar
+- User navigation
+- Responsive menu
 
-Social media links
+### 🏠 Property Card
 
-Copyright
+- Property image
+- Basic details (price, location, rating)
+- Favorite button
+- Responsive layout
 
-♿ Accessibility Commitment
+### 📜 Footer
 
-This project follows WCAG 2.1 AA
-guidelines:
+- Site links
+- Company information
+- Social media links
+- Copyright
 
-Semantic HTML structure
-
-High color contrast and scalable text
-
-Keyboard and screen reader navigation
-
-Accessible form inputs and labels
+---
